@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>iview example</title>
@@ -9,6 +10,7 @@
     <script type="text/javascript" src="./scripts/iview.min.js"></script>
     <script type="text/javascript" src="./scripts/uzone.control.js"></script>
 </head>
+
 <body>
     <div id="app">
         <div class="layout">
@@ -66,13 +68,61 @@
                     </i-menu>
                 </i-header> -->
                 <uz-header></uz-header>
-                <i-content>
-                    <p>常州云众智能科技有限公司（UZoneTec）致力于推动软件技术在工业自动化领域中的应用，依托“云计算”技术与“物联网”的成果，我们开发出新一代的工业自动化软硬件，并以此为基础提供完整的系统集成服务。</p>
-                    <p>目前，我们的主要产品有：云众工控平台（FiTools）、云众设备云（device.uzonetec.com）、前端UI库与基于ARM架构的嵌入式模块。</p>
-                    <p>以这些产品为基础，我们先后开发了设备监控管理系统、电力监控系统、基于视觉识别的安全保护系统和轮胎吊定位系统、半自动操作系统等多种具体应用。它们已广泛应用于港口自动化、电力、市政工程、智能楼宇、交通运输等行业。</p>
-                    <p>同时，根据客户需求，我们还提供定制化的工业软件开发服务以及有关的技术咨询、技术管理服务。我们将以创新的产品、服务和解决方案，为客户创造长期的价值和潜在的增长。</p>
-
-                </i-content>
+                <!-- 轮播 -->
+                <carousel  loop>
+                    <carousel-item>
+                        <div class="demo-carousel" style="background-color :#f8f8f8;">
+                            <row>
+                                <i-col span="6">
+                                    <h1>工控平台软件</h1>
+                                    <p>新一代跨平台（Windows/Linux）工业自动化软件，可广泛应用于港口自动化、电力、市政工程、智能楼宇等行业。</p>
+                                </i-col>
+                                <i-col span="6">
+                                    <img src="image/Front-end.png" />
+                                </i-col>
+                            </row>
+                        </div>
+                    </carousel-item>
+                    <carousel-item>
+                        <div class="demo-carousel" style="background-color :red;">
+                            <row>
+                                <i-col span="6">
+                                    <h1>前端开发库</h1>
+                                    <p>可配合工控平台软件使用， 编辑设计基于Html的人机界面，支持响应式页面设计。</p>
+                                </i-col>
+                                <i-col span="6">
+                                    <img src="image/Front-end.png" />
+                                </i-col>
+                            </row>
+                        </div>
+                    </carousel-item>
+                    <carousel-item>
+                        <div class="demo-carousel" style="background-color :#f8f8f8;">
+                            <row>
+                                <i-col span="6">
+                                    <h1>云服务</h1>
+                                    <p>为各种跨平台物联网应用、行业解决方案提供可靠简便的云端接入、存储、计算和展现服务。</p>
+                                </i-col>
+                                <i-col span="6">
+                                    <img src="image/Front-end.png" />
+                                </i-col>
+                            </row>
+                        </div>
+                    </carousel-item>
+                    <carousel-item>
+                        <div class="demo-carousel" style="background-color :#f8f8f8;">
+                            <row>
+                                <i-col span="6">
+                                    <h1>嵌入式系统</h1>
+                                    <p>基于云众工控平台软件可高效地运行于linux平台上，且支持arm架构的CPU。我司可提供多种定制化的特制硬件开发服务。</p>
+                                </i-col>
+                                <i-col span="6">
+                                    <img src="image/Front-end.png" />
+                                </i-col>
+                            </row>
+                        </div>
+                    </carousel-item>
+                </carousel>
                 <!-- <i-footer class="layout-footer-center">
                     <row type="flex" justify="space-between" class="code-row-bg">
                         <i-col span="4">
@@ -133,14 +183,12 @@
         new Vue({
             el: '#app',
             data: {
-                visible: false
+                
             },
-            methods: {
-                show: function () {
-                    this.visible = true;
-                }
+            methods: {                
             }
         })
     </script>
 </body>
+
 </html>
