@@ -92,3 +92,24 @@
     text-align:center;
     color :white;
 }
+.demo-carousel{
+    
+    padding :50px 400px;
+}
+.demo-carousel h1{
+    padding-top:50px;
+}
+.demo-carousel p{
+    padding-top :30px;
+    padding-right :20px;
+    font-size:larger;
+}
+.demo-carousel img{
+    padding-left :20px;
+}
+.ivu-col-span-6 {
+    width: 50%;
+}
+.ivu-carousel-dots-inside{
+    bottom:16px;
+}
