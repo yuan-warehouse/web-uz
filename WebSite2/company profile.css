@@ -1,0 +1,121 @@
+﻿.body {
+    padding-top: 50px;
+}
+
+.navbar-header {
+    padding-top: 5px
+}
+
+.collapse {
+    float: right
+}
+
+.carousel {
+    height: 500px;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 50px;
+    border-bottom-style: inset;
+}
+
+.navbar-brand {
+    float: left;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+    .navbar-nav ul {
+        float: right;
+    }
+
+    .navbar-nav li {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .navbar-nav a:link, .navbar-nav a:visited {
+        color: #666666;
+        display: block;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    .navbar-nav a:hover, .navbar-nav a:active {
+        display: block;
+        font-weight: normal;
+        color: #05cccc;
+        text-decoration: none;
+    }
+.dropdown-item:link, .dropdown-item:visited {
+    color: #666666;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-item:hover, dropdown-item:active {
+    display: block;
+    color: #05cccc;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    width: auto;
+}
+.main{height:500px;}
+.main p{padding:40px 40px 0px 40px;}
+.footer {
+    width:100%;
+    background-color: #373843;
+    height: 460px;
+    color: #333333;
+}
+
+    .footer h5 {
+        color: white;
+    }
+
+    .footer ul {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .footer .col-md-3 {
+        padding-top: 40px;
+    }
+
+    .footer .col-md-6 {
+        padding-top: 40px;
+    }
+
+        .footer .col-md-6 .col-md-6 {
+            padding-top: 0px;
+        }
+
+    .footer li {
+        list-style-type: none;
+        font-size: small;
+        height: 30px;
+    }
+
+    .footer a:link, a:visited {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.70);
+    }
+
+    .footer a:hover, a:active {
+        display: block;
+        font-weight: normal;
+        color: #05cccc;
+        text-decoration: none;
+    }
+
+    .footer p {
+        color: white;
+        text-align: center
+    }
+.copywright{padding-top:60px;}

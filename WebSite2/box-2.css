@@ -1,0 +1,84 @@
+﻿.body{padding-top:50px;}
+.navbar-header{padding-top:5px}
+.collapse{float:right}
+.carousel{height :500px;
+    background-color:#f8f8f8;}
+
+.carousel-indicators li{background-color:#666666}
+.carousel-indicators li active {
+    background-color: #333333
+}
+.carousel p {
+    padding-bottom: 40px;
+}
+.navbar{background-color:#ffffff;height: 50px;
+    border-bottom-style: inset;}
+.navbar-brand{float:left;}
+.navbar-nav{float:right;}
+.navbar-nav ul{
+    float: right;
+}
+.navbar-nav li{width:100px;font-size:14px;}
+
+.navbar-nav a:link, .navbar-nav a:visited {
+    color:#666666;
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+}
+.navbar-nav a:hover,.navbar-nav a:active {
+    display: block;
+    font-weight: normal;
+    color: #05cccc;
+    text-decoration: none;
+}
+
+.dropdown-item:link, .dropdown-item:visited {
+    color:#666666;
+    display: block;
+    text-decoration: none;
+}
+.dropdown-item:hover, dropdown-item:active {
+    display: block;
+    color: #05cccc;
+    text-decoration: none;
+}
+.dropdown-menu{width:auto;}
+.navbarSupportedContent {
+    float: right;
+}
+.carousel-inner .col-md-6{padding-top:100px;}
+.equipment{height:650px;text-align:center;}
+.equipment h3{padding-top:80px;}
+.equipment img{padding-top:40px;padding-bottom:40px;}
+.equipment .col-md-4 p{padding-bottom:40px;}
+    .footer {
+        background-color: #373843;
+        height: 460px;
+        color: #333333;
+    }
+.footer h5{color:white;}
+.footer ul {
+        padding-left: 0px;
+        padding-top:20px;
+    }
+.footer .col-md-3{padding-top:40px;}
+.footer .col-md-6{padding-top:40px;}
+.footer .col-md-6 .col-md-6 {padding-top:0px;}
+.footer li{list-style-type:none;font-size:small;height:30px;}
+.footer a:link, a:visited {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.70);
+}
+.footer a:hover, a:active {
+    display: block;
+    font-weight: normal;
+    color: #05cccc;
+    text-decoration: none;
+}
+.footer p{color:white;text-align:center}
+.footer h5 span{border-bottom:2px solid #05cccc;padding-bottom:4px;}
+.copywright {
+    padding-top: 60px;
+}
+ 
