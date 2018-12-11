@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <title>iview example</title>
     <link rel="stylesheet" type="text/css" href="http://unpkg.com/iview/dist/styles/iview.css">
-    <link rel=" stylesheet" type="text/css" href="home-iview.css" />
-    <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
-    <script type="text/javascript" src="http://unpkg.com/iview/dist/iview.min.js"></script>
+    <link rel=" stylesheet" type="text/css" href="./content/home-iview.css" />
+    <script type="text/javascript" src="./scripts/vue.min.js"></script>
+    <script type="text/javascript" src="./scripts/iview.min.js"></script>
+    <script type="text/javascript" src="./scripts/uzone.control.js"></script>
 </head>
 <body>
     <div id="app">
         <div class="layout">
             <layout>
-                <i-header>
+                <!-- <i-header>
                     <i-menu mode="horizontal" theme="light" active-name="1">
                         <div class="layout-logo"><img src="image/logo.png" width=" 30" height="30" /></div>
                         <div class="layout-nav">
@@ -63,7 +64,8 @@
                             </menu-item>
                         </div>
                     </i-menu>
-                </i-header>
+                </i-header> -->
+                <uz-header></uz-header>
                 <i-content>
                     <p>常州云众智能科技有限公司（UZoneTec）致力于推动软件技术在工业自动化领域中的应用，依托“云计算”技术与“物联网”的成果，我们开发出新一代的工业自动化软硬件，并以此为基础提供完整的系统集成服务。</p>
                     <p>目前，我们的主要产品有：云众工控平台（FiTools）、云众设备云（device.uzonetec.com）、前端UI库与基于ARM架构的嵌入式模块。</p>
@@ -71,7 +73,7 @@
                     <p>同时，根据客户需求，我们还提供定制化的工业软件开发服务以及有关的技术咨询、技术管理服务。我们将以创新的产品、服务和解决方案，为客户创造长期的价值和潜在的增长。</p>
 
                 </i-content>
-                <i-footer class="layout-footer-center">
+                <!-- <i-footer class="layout-footer-center">
                     <row type="flex" justify="space-between" class="code-row-bg">
                         <i-col span="4">
                             <h3><span>解决方案</span></h3>
@@ -122,7 +124,8 @@
                         </i-col>
                     </row>
                     <div class="copywright">苏ICP备13037848号-1©常州云众智能科技有限公司版权所有</div>
-                </i-footer>
+                </i-footer> -->
+                <uz-footer></uz-footer>
             </layout>
         </div>
     </div>
