@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>iview example</title>
     <link rel="stylesheet" type="text/css" href="http://unpkg.com/iview/dist/styles/iview.css">
-    <link rel=" stylesheet" type="text/css" href="home-iview.css" />
+    <link rel=" stylesheet" type="text/css" href="carousel.css"  />
     <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
     <script type="text/javascript" src="http://unpkg.com/iview/dist/iview.min.js"></script>
 </head>
@@ -13,35 +13,55 @@
         <carousel v-model="value1" loop>
             <carousel-item>
                 <div class="demo-carousel">
-                    <div class="row">
-                        <div class="col-md-6 ">
-                            <div class=" slider-text">
-                                <h3>前端开发库</h3>
-                                <p>可配合工控平台软件使用，	编辑设计基于Html的人机界面，支持响应式页面设计。</p>
-                                <div class="btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-secondary active">
-                                        <input type="checkbox" checked autocomplete="off">了解更多
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="slider-img">
-                                <img src="image/software.png" alt="Second slide">
-                            </div>
-
-                        </div>
-                    </div>
+                    <row>
+                        <i-col span="6">
+                            <h1>工控平台软件</h1>
+                            <p>新一代跨平台（Windows/Linux）工业自动化软件，可广泛应用于港口自动化、电力、市政工程、智能楼宇等行业。</p>
+                        </i-col>
+                        <i-col span="6">
+                            <img src="image/Front-end.png" />
+                        </i-col>
+                    </row>
                 </div>
             </carousel-item>
             <carousel-item>
-                <div class="demo-carousel">2</div>
+                <div class="demo-carousel">
+                    <row>
+                        <i-col span="6">
+                            <h1>前端开发库</h1>
+                            <p>可配合工控平台软件使用，	编辑设计基于Html的人机界面，支持响应式页面设计。</p>
+                        </i-col>
+                        <i-col span="6">
+                            <img src="image/Front-end.png" />
+                        </i-col>
+                    </row>
+                </div>
             </carousel-item>
             <carousel-item>
-                <div class="demo-carousel">3</div>
+                <div class="demo-carousel">
+                    <row>
+                        <i-col span="6">
+                            <h1>云服务</h1>
+                            <p>为各种跨平台物联网应用、行业解决方案提供可靠简便的云端接入、存储、计算和展现服务。</p>
+                        </i-col>
+                        <i-col span="6">
+                            <img src="image/Front-end.png" />
+                        </i-col>
+                    </row>
+                </div>
             </carousel-item>
             <carousel-item>
-                <div class="demo-carousel">4</div>
+                <div class="demo-carousel">
+                    <row>
+                        <i-col span="6">
+                            <h1>嵌入式系统</h1>
+                            <p>基于云众工控平台软件可高效地运行于linux平台上，且支持arm架构的CPU。我司可提供多种定制化的特制硬件开发服务。</p>
+                        </i-col>
+                        <i-col span="6">
+                            <img src="image/Front-end.png" />
+                        </i-col>
+                    </row>
+                </div>
             </carousel-item>
         </carousel>
     </div>
