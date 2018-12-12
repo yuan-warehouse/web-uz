@@ -1,6 +1,6 @@
 // 头组件
 Vue.component('uz-header', {
-    template: '<i-header>\
+	template: '<i-header>\
     <i-menu mode="horizontal" theme="light" active-name="1">\
         <div class="layout-logo"><img src="image/logo.png" width=" 30" height="30" /></div>\
         <div class="layout-nav">\
@@ -52,11 +52,11 @@ Vue.component('uz-header', {
         </div>\
     </i-menu>\
 </i-header>'
-})
+});
 
 // 轮播组件
 Vue.component('uz-carousel', {
-    template: '\
+	template: '\
     <carousel v-model="value1" loop>\
         <carousel-item>\
             <div class="demo-carousel">\
@@ -111,16 +111,16 @@ Vue.component('uz-carousel', {
             </div>\
         </carousel-item>\
     </carousel>',
-    data(){
-        return{
-            value1:0
-        }
-    }
-})
+	data() {
+		return {
+			value1: 0
+		};
+	}
+});
 
 // 尾组件
 Vue.component('uz-footer', {
-    template: '<i-footer class="layout-footer-center">\
+	template: '<i-footer class="layout-footer-center">\
     <row type="flex" justify="space-between" class="code-row-bg">\
         <i-col span="4">\
             <h3><span>解决方案</span></h3>\
@@ -172,4 +172,4 @@ Vue.component('uz-footer', {
     </row>\
     <div class="copywright">苏ICP备13037848号-1©常州云众智能科技有限公司版权所有</div>\
 </i-footer>'
-})
+});
