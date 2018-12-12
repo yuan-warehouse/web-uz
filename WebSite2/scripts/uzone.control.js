@@ -122,7 +122,7 @@ Vue.component('uz-carousel', {
 Vue.component('uz-footer', {
 	template: '<i-footer class="layout-footer-center">\
     <row type="flex" justify="space-between" class="code-row-bg">\
-        <i-col span="4">\
+        <i-col :xs="12" :sm="12" :md="6" :lg="6">\
             <h3><span>解决方案</span></h3>\
             <ul>\
                 <li><a href="#home">飞图(FiTools)工控平台软件</a></li>\
@@ -131,10 +131,10 @@ Vue.component('uz-footer', {
                 <li><a href="#about">嵌入式系统</a></li>\
             </ul>\
         </i-col>\
-        <i-col span="6">\
+        <i-col :xs="24" :sm="24" :md="12" :lg="12">\
             <h3>产品案例</h3>\
             <row>\
-                <i-col span="10">\
+                <i-col :xs="12" :sm="12" :md="12" :lg="12">\
                     <ul>\
                         <li><a href="Company Profile.html">车架防吊起系统</a></li>\
                         <li><a href="#news">锁扣识别系统</a></li>\
@@ -146,7 +146,7 @@ Vue.component('uz-footer', {
                         <li><a href="#about">声纹检测系统（VRS)</a></li>\
                     </ul>\
                 </i-col>\
-                <i-col span="10">\
+                <i-col :xs="12" :sm="12" :md="12" :lg="12">\
                     <ul>\
                         <li><a href="#home">车架防吊起系统</a></li>\
                         <li><a href="#news">锁扣识别系统</a></li>\
@@ -160,7 +160,7 @@ Vue.component('uz-footer', {
                 </i-col>\
             </row>\
         </i-col>\
-        <i-col span="4">\
+        <i-col :xs="24" :sm="24" :md="12" :lg="12">\
             <h3>关于我们</h3>\
             <ul>\
                 <li><a href="#home">飞图(FiTools)工控平台软件</a></li>\

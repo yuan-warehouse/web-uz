@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 .ivu-layout-header {
-    padding: 0px 400px;
+    position :fixed ;
     background-color: #ffffff;
     border-bottom-style: inset;
 }
@@ -41,15 +41,23 @@
     padding: 40px 40px 0px 40px;
     font-size:larger;
 }
-.ivu-layout-content {
+/*.ivu-layout-content {
     height: 500px;
     background-color:#ffffff;
     padding:0px 400px;
+}*/
+.ivu-carousel-track higher{
+    background-color :white ;
+}
+.ivu-layout-content{
+    background-color :white;
 }
 .ivu-layout-footer {
     background-color: #373843;
-    height: 444px;
-    padding:50px 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .layout-footer-center {
@@ -81,36 +89,34 @@
     color: #05cccc;
     text-decoration: none;
 }
-.ivu-col-span-4{
-    width:25%;
-}
-.ivu-col-span-6 {
-    width: 50%;
-}
+
 .copywright {
     padding-top: 80px;
     text-align:center;
     color :white;
 }
-.demo-carousel{
-    
-    padding :50px 400px;
+.demo-carousel {
+    background-color: #f8f8f8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
-.demo-carousel h1{
-    padding-top:50px;
-}
-.demo-carousel p{
-    padding-top :30px;
-    padding-right :20px;
-    padding-bottom:30px;
-    font-size:larger;
-}
-.demo-carousel img{
-    padding-left :20px;
-}
-.ivu-col-span-6 {
-    width: 50%;
-}
-.ivu-carousel-dots-inside{
-    bottom:16px;
+
+    .demo-carousel h1 {
+        padding-top: 50px;
+    }
+
+    .demo-carousel p {
+        font-size: large;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .demo-carousel img {
+        padding-left: 20px;
+    }
+
+.ivu-carousel-dots-inside {
+    bottom: 16px;
 }
